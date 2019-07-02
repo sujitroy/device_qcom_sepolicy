@@ -142,6 +142,7 @@ persist.vendor.graphics.vulkan.disable     u:object_r:graphics_vulkan_prop:s0
 #boot mode property
 vendor.sys.boot_mode              u:object_r:vendor_boot_mode_prop:s0
 # NFC
+persist.nfc.hci_network_reset_req u:object_r:nfc_nq_prop:s0
 vendor.qti.nfc.            u:object_r:nfc_nq_prop:s0
 # LKCore start
 ctl.vendor.LKCore-dbg      u:object_r:ctl_LKCore_prop:s0
@@ -228,7 +229,9 @@ vendor.hevc.mux.print.codec.cfg    u:object_r:mm_video_prop:s0
 ro.vendor.mm-enable-accurate-seek  u:object_r:mm_video_prop:s0
 
 #vendor-camera
+vendor.camera.aux.packageblacklist u:object_r:vendor_camera_prop:s0
 vendor.camera.aux.packagelist      u:object_r:vendor_camera_prop:s0
+vendor.camera.hal1.packagelist     u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.privapp.list u:object_r:vendor_camera_prop:s0
 
 #rmt_storage
